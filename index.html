@@ -30,18 +30,13 @@
 			document.getElementsByTagName( 'head' )[0].appendChild( link );
 		</script>
 
+		<script src="https://cdn.jsdelivr.net/interact.js/1.2.6/interact.min.js"></script>
+		<script src="js/tooltip.min.js"></script>
+		<script src="js/jquery.min.js"></script>
+
 		<!--[if lt IE 9]>
 		<script src="lib/js/html5shiv.js"></script>
 		<![endif]-->
-
-		<style>
-		.reveal pre {
-		  width: 120%;
-		  margin-left: -50%;
-			margin-right: -50%;
-
-		}
-		</style>
 	</head>
 
 	<body>
@@ -52,6 +47,7 @@
 			<div class="slides">
 
 				<section>
+					<br>
 					<h3>Demo: Postman 101</h3>
 					<img src="images/consumers.png" width="550" align="center">
 					<p>
@@ -60,7 +56,9 @@
 				</section>
 
 				<section style="padding: 0px; margin: 0px;">
-					<img src="images/postman-launchpad.png" width="100%" style="padding: 0px; margin: 0px;">
+					<div class="rel" id="example20treference1" style="width: 40%">
+						<img src="images/postman-launchpad.png" width="100%" style="padding: 0px; margin: 0px;">
+					</div>
 				</section>
 
 				<section data-background-iframe="images/postman-launchpad.png" data-background-interactive>
@@ -73,6 +71,26 @@
 			</div>
 
 		</div>
+
+		<div class="example">
+				<div class="rel" id="example20treference1" style="width: 40%">
+<p class="bold">Manually triggered</p>
+</div>
+
+<script>
+
+document.addEventListener('DOMContentLoaded', function(){
+var index = 0;
+var popper;
+
+var instance = new Tooltip(document.getElementById("example20treference1"), {
+		title: "Hey there",
+		trigger: "click",
+});
+instance.show();
+});
+
+</script>
 
 		<script src="js/reveal.js"></script>
 
