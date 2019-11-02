@@ -1,0 +1,12 @@
+- caption_title: New Request Tab
+  caption_text: Postman works like your browser and you can create new request tabs.
+  margin_margin_top: 500px
+  margin_right: 0
+  background_image: images/postman-launchpad.png
+
+  tooltip_show: true
+  tooltip_text: New Tab
+  tooltip_width: 200px
+  tooltip_margin_top: 55px
+  tooltip_margin_left: 600px
+  tooltip_direction: left
