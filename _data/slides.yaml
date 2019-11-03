@@ -1,22 +1,48 @@
-- caption_title: New Request Tab
-  caption_text: Postman works like your browser and you can create new request tabs.
+- caption_title: Postman Is An API Platform
+  caption_text: Postman is an API platform where you can make requests to existing APIs and be able to see the details of each response.
   margin_margin_top: 500px
+  caption_width: 30
   margin_right: 0
-  background_image: images/postman-launchpad.png
-  tooltip_show: true
-  tooltip_text: New Tab
+  background_image: images/postman-client.png
+  tooltip_show: 1
+  tooltip_text: Requests
   tooltip_width: 200px
-  tooltip_margin_top: 55px
-  tooltip_margin_left: 600px
+  tooltip_margin_top: 0px
+  tooltip_margin_left: 700px
   tooltip_direction: left
-- caption_title: Syncing With The Cloud
-  caption_text: You can sync to the cloud by clicking on the orange button
+- caption_title: Name Your Requests
+  caption_text: Postman allows you to name your requests, providing clear, human readable description of what each API request does.
   margin_margin_top: 500px
   margin_right: 1
-  background_image: images/postman-launchpad.png
-  tooltip_show: true
-  tooltip_text: Sync
+  background_image: images/postman-client.png
+  tooltip_show: 1
+  tooltip_text: Name
   tooltip_width: 150px
-  tooltip_margin_top: 5px
-  tooltip_margin_left: 890px
-  tooltip_direction: right
+  tooltip_margin_top: 30px
+  tooltip_margin_left: 720px
+  tooltip_direction: left
+  caption_width: 30
+- caption_title: Set The HTTP Verb
+  caption_text: Defining the HTTP verb, allowing you to define GET, POST, and other common verbs that are used to perform different actions.
+  margin_margin_top: 500px
+  caption_width: 30
+  margin_right: 0
+  background_image: images/postman-client.png
+  tooltip_show: 1
+  tooltip_text: Verbs
+  tooltip_width: 200px
+  tooltip_margin_top: 80px
+  tooltip_margin_left: 720px
+  tooltip_direction: left
+- caption_title: Define API URL
+  caption_text: Set the host and path for each API request, defining the address being called with each API request being made via Postman.
+  margin_margin_top: 500px
+  caption_width: 30
+  margin_right: 0
+  background_image: images/postman-client.png
+  tooltip_show: 1
+  tooltip_text: Verbs
+  tooltip_width: 200px
+  tooltip_margin_top: 100px
+  tooltip_margin_left: 720px
+  tooltip_direction: left
