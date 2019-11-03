@@ -17,8 +17,8 @@ overview: true
 {% for slide in slides %}
 <section data-background="{{ slide.background_image }}">
 
-  {% if slide.tooltip_show = 'true' %}
-    {% if slide.tooltip_direction = 'left' %}
+  {% if slide.tooltip_show == 'true' %}
+    {% if slide.tooltip_direction == 'left' %}
       <table style="position: absolute; width: {{ slide.tooltip_width }}; margin-top: {{ slide.tooltip_margin_top }}; margin-left: {{ slide.tooltip_margin_left }};">
         <tr>
           <td style="width: 50px; padding: 0px 0px 0px 0px; margin: 0px 0px 0px 0px;"><img src="images/tip-left.png" style="width: 25px;" align="right" /></td>
