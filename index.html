@@ -21,7 +21,6 @@ overview: true
 <section data-background="{{ slide.background_image }}" id="slide-{{ i }}">
 
   {% if slide.tooltip_show == 1 %}
-    <h1>{{ i }}</h1>
     {% if slide.tooltip_direction == 'left' %}
       <table style="position: absolute; width: {{ slide.tooltip_width }}; margin-top: {{ slide.tooltip_margin_top }}; margin-left: {{ slide.tooltip_margin_left }};">
         <tr>
