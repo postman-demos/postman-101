@@ -18,7 +18,7 @@ overview: true
 {% assign i = 1 %}
 
 {% for slide in slides %}
-<section data-background="{{ slide.background_image }}" id="slide-{{ i }}">
+<section data-background="{{ slide.background_image }}" data-state="slide-{{ i }}">
 
   {% if slide.tooltip_show == 1 %}
     {% if slide.tooltip_direction == 'left' %}
