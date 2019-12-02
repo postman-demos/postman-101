@@ -10,8 +10,8 @@
   tooltip_show: 1
   tooltip_text: Requests
   tooltip_width: 190px
-  tooltip_margin_top: 25px
-  tooltip_margin_left: 600px
+  tooltip_margin_top: 35px
+  tooltip_margin_left: 650px
   tooltip_direction: left
 - caption_title: Name Your Requests
   caption_text: Postman allows you to name your requests, providing a clear, human
