@@ -10,8 +10,8 @@
   tooltip_show: 1
   tooltip_text: Requests
   tooltip_width: 190px
-  tooltip_margin_top: 38px
-  tooltip_margin_left: 660px
+  tooltip_margin_top: 40px
+  tooltip_margin_left: 665px
   tooltip_direction: left
 - caption_title: Name Your Requests
   caption_text: Postman allows you to name your requests, providing a clear, human
@@ -23,8 +23,8 @@
   tooltip_show: 1
   tooltip_text: Edit Name
   tooltip_width: 250px
-  tooltip_margin_top: 40px
-  tooltip_margin_left: 525px
+  tooltip_margin_top: 25px
+  tooltip_margin_left: 535px
   tooltip_direction: left
   caption_width: 30
 - caption_title: Set The HTTP Verb
@@ -38,7 +38,7 @@
   tooltip_text: Verb
   tooltip_width: 145px
   tooltip_margin_top: 45px
-  tooltip_margin_left: 565px
+  tooltip_margin_left: 545px
   tooltip_direction: left
 - caption_title: Define Path To API
   caption_text: Set the host and path for each API request, defining the address being
@@ -51,7 +51,7 @@
   tooltip_text: Path
   tooltip_width: 145px
   tooltip_margin_top: 45px
-  tooltip_margin_left: 650px
+  tooltip_margin_left: 670px
   tooltip_direction: left
 - caption_title: Manage Query Parameters
   caption_text: Define what the query parameters are for an API, defining the keys
@@ -64,7 +64,7 @@
   tooltip_text: Parameters
   tooltip_width: 205px
   tooltip_margin_top: 90px
-  tooltip_margin_left: 510px
+  tooltip_margin_left: 515px
   tooltip_direction: left
 - caption_title: Apply Authentication
   caption_text: You are able to apply a variety of common authentication methods to
@@ -77,7 +77,7 @@
   tooltip_text: Authorization
   tooltip_width: 255px
   tooltip_margin_top: 92px
-  tooltip_margin_left: 585px
+  tooltip_margin_left: 600px
   tooltip_direction: left
 - caption_title: Define Headers
   caption_text: Crafting exactly the HTTP headers you need to get exactly the type
@@ -90,7 +90,7 @@
   tooltip_text: Headers
   tooltip_width: 175px
   tooltip_margin_top: 95px
-  tooltip_margin_left: 630px
+  tooltip_margin_left: 660px
   tooltip_direction: left
 - caption_title: Control the Body
   caption_text: Having full control over defining the body that is sent along with
@@ -103,7 +103,7 @@
   tooltip_text: Body
   tooltip_width: 145px
   tooltip_margin_top: 97px
-  tooltip_margin_left: 695px
+  tooltip_margin_left: 720px
   tooltip_direction: left
 - caption_title: Send Request
   caption_text: Having full control over defining the body that is sent along with
@@ -116,7 +116,7 @@
   tooltip_text: Send
   tooltip_width: 125px
   tooltip_margin_top: 50px
-  tooltip_margin_left: 1425px
+  tooltip_margin_left: 1405px
   tooltip_direction: right
 - caption_title: See The Response
   caption_text: View the API request response details in a machine readable way, allowing
@@ -129,7 +129,7 @@
   tooltip_text: Response
   tooltip_width: 195px
   tooltip_margin_top: 305px
-  tooltip_margin_left: 705px
+  tooltip_margin_left: 680px
   tooltip_direction: left
 - caption_title: See As Different Formats
   caption_text: You can choose to see the response in a variety of formats, allowing
@@ -169,7 +169,7 @@
   tooltip_text: Save
   tooltip_width: 95px
   tooltip_margin_top: 40px
-  tooltip_margin_left: 1435px
+  tooltip_margin_left: 1405px
   tooltip_direction: right
 - caption_title: Save As Collections
   caption_text: You can choose to see the response in a variety of formats, allowing
