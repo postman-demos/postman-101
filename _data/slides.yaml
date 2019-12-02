@@ -10,7 +10,7 @@
   tooltip_show: 1
   tooltip_text: Requests
   tooltip_width: 190px
-  tooltip_margin_top: 65px
+  tooltip_margin_top: 15px
   tooltip_margin_left: 565px
   tooltip_direction: left
 - caption_title: Name Your Requests
@@ -23,7 +23,7 @@
   tooltip_show: 1
   tooltip_text: Edit Name
   tooltip_width: 260px
-  tooltip_margin_top: 95px
+  tooltip_margin_top: 45px
   tooltip_margin_left: 475px
   tooltip_direction: left
   caption_width: 30
@@ -37,7 +37,7 @@
   tooltip_show: 1
   tooltip_text: Verb
   tooltip_width: 145px
-  tooltip_margin_top: 120px
+  tooltip_margin_top: 70px
   tooltip_margin_left: 475px
   tooltip_direction: left
 - caption_title: Define Path To API
@@ -50,7 +50,7 @@
   tooltip_show: 1
   tooltip_text: Path
   tooltip_width: 145px
-  tooltip_margin_top: 120px
+  tooltip_margin_top: 70px
   tooltip_margin_left: 570px
   tooltip_direction: left
 - caption_title: Manage Query Parameters
@@ -63,7 +63,7 @@
   tooltip_show: 1
   tooltip_text: Parameters
   tooltip_width: 205px
-  tooltip_margin_top: 134px
+  tooltip_margin_top: 84px
   tooltip_margin_left: 455px
   tooltip_direction: left
 - caption_title: Apply Authentication
@@ -76,7 +76,7 @@
   tooltip_show: 1
   tooltip_text: Authentication
   tooltip_width: 255px
-  tooltip_margin_top: 155px
+  tooltip_margin_top: 105px
   tooltip_margin_left: 520px
   tooltip_direction: left
 - caption_title: Define Headers
@@ -89,7 +89,7 @@
   tooltip_show: 1
   tooltip_text: Headers
   tooltip_width: 175px
-  tooltip_margin_top: 145px
+  tooltip_margin_top: 95px
   tooltip_margin_left: 585px
   tooltip_direction: left
 - caption_title: Control the Body
@@ -102,7 +102,7 @@
   tooltip_show: 1
   tooltip_text: Body
   tooltip_width: 145px
-  tooltip_margin_top: 165px
+  tooltip_margin_top: 115px
   tooltip_margin_left: 615px
   tooltip_direction: left
 - caption_title: Send Request
@@ -115,7 +115,7 @@
   tooltip_show: 1
   tooltip_text: Send
   tooltip_width: 125px
-  tooltip_margin_top: 120px
+  tooltip_margin_top: 70px
   tooltip_margin_left: 1065px
   tooltip_direction: right
 - caption_title: See The Response
@@ -128,7 +128,7 @@
   tooltip_show: 1
   tooltip_text: Response
   tooltip_width: 195px
-  tooltip_margin_top: 355px
+  tooltip_margin_top: 305px
   tooltip_margin_left: 615px
   tooltip_direction: left
 - caption_title: See As Different Formats
@@ -141,7 +141,7 @@
   tooltip_show: 1
   tooltip_text: Formats
   tooltip_width: 175px
-  tooltip_margin_top: 275px
+  tooltip_margin_top: 225px
   tooltip_margin_left: 655px
   tooltip_direction: left
 - caption_title: Save Response
@@ -154,7 +154,7 @@
   tooltip_show: 1
   tooltip_text: Save
   tooltip_width: 135px
-  tooltip_margin_top: 275px
+  tooltip_margin_top: 225px
   tooltip_margin_left: 1095px
   tooltip_direction: right
 - caption_title: Save Request
@@ -168,7 +168,7 @@
   tooltip_show: 1
   tooltip_text: Save
   tooltip_width: 95px
-  tooltip_margin_top: 107px
+  tooltip_margin_top: 57px
   tooltip_margin_left: 1155px
   tooltip_direction: right
 - caption_title: Save As Collections
@@ -181,7 +181,7 @@
   tooltip_show: 1
   tooltip_text: Collections
   tooltip_width: 175px
-  tooltip_margin_top: 220px
+  tooltip_margin_top: 170px
   tooltip_margin_left: 280px
   tooltip_direction: left
 - caption_title: Save Across Workspaces
@@ -195,7 +195,7 @@
   tooltip_show: 1
   tooltip_text: Workspaces
   tooltip_width: 175px
-  tooltip_margin_top: 19px
+  tooltip_margin_top: -31px
   tooltip_margin_left: 805px
   tooltip_direction: left
 ...
